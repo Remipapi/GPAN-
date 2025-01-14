@@ -1,1 +1,58 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GPAN - Graduate Professional African Network</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>GPAN</h1>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#join">Join Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About GPAN</h2>
+      <p>GPAN is dedicated to empowering professionals across Africa through mentorship, training, and opportunities.</p>
+    </section>
+
+    <section id="programs">
+      <h2>Our Programs</h2>
+      <ul>
+        <li>Internship Matching</li>
+        <li>Professional Development Workshops</li>
+        <li>Networking Events</li>
+      </ul>
+    </section>
+
+    <section id="join">
+      <h2>Join Us</h2>
+      <p>Sign up to become a GPAN member and unlock career opportunities.</p>
+      <form action="/submit-form" method="POST">
+        <input type="text" placeholder="Full Name" name="name" required>
+        <input type="email" placeholder="Email" name="email" required>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email: contact@gpanetwork.org</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 GPAN - All Rights Reserved</p>
+  </footer>
+</body>
+</html>
